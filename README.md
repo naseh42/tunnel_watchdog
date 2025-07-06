@@ -30,8 +30,7 @@
 اگر چند تا IP:PORT داری و می‌خوای همه با هم مانیتور بشن:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/tunnel_watchdog_multi.sh)
-```
+bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/tunnel_watchdog.sh)
 
 ---
 
