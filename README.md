@@ -27,8 +27,9 @@
 bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/tunnel_watchdog_multi.sh)
 
 
+### ✅
 
-✅ نصب نسخه ساده (تک‌سرور Rathole)
+##  ✅ نصب نسخه ساده (تک‌سرور Rathole)
 
 اگر فقط یه سرور داری و با Rathole کار می‌کنی:
 
