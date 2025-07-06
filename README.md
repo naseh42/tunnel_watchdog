@@ -23,14 +23,16 @@
 
 ### نصب نسخه چندسروره (multi)
 
-اگر چند تا IP:PORT داری و می‌خوای همه با هم مانیتور بشن:
+###✅اگر چند تا IP:PORT داری و می‌خوای همه با هم مانیتور بشن:
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/tunnel_watchdog_multi.sh)
 
-نصب نسخه ساده (برای یه دونه Rathole)
 
-اگر فقط یه سرور داری و با Rathole کار می‌کنی:
+
+###✅نصب نسخه ساده (برای یه دونه Rathole)
+
+###✅اگر فقط یه سرور داری و با Rathole کار می‌کنی:
 
 bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/rathole_watchdog.sh)
 
