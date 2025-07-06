@@ -38,9 +38,12 @@ bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/tu
 ### 🧩 نسخه تک‌سروره (simple Rathole)
 اگر فقط یک سرور داری و می‌خوای فقط یک تانل Rathole رو مانیتور کنی:
 
+``
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/naseh42/rathole_watchdog/main/rathole_watchdog.sh)
+bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/rathole_watchdog.sh)
 ```
+
+---
 
 ---
 
