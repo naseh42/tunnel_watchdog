@@ -158,9 +158,14 @@ while true; do
   CURRENT_TIME=$(date +%s)
   if (( ANY_FAIL == 1 )); then
     if (( CURRENT_TIME - LAST_RESTART >= RESTART_COOLDOWN )); then
-      echo "$TIME_NOW 🔁 ریستارت Rathole به دلیل کیفیت نامناسب" >> "$LOG_FILE"
-      systemctl restart rathole.service
-      LAST_RESTART=$CURRENT_TIME
+      RATHOLE_SERVICE=$(systemctl list-units --type=service | grep -i rathole | grep -v watchdog | awk '{print $1}' | head -n1)
+      if [ -n "$RATHOLE_SERVICE" ]; then
+        echo "$TIME_NOW 🔁 ریستارت $RATHOLE_SERVICE به دلیل کیفیت نامناسب" >> "$LOG_FILE"
+        systemctl restart "$RATHOLE_SERVICE"
+        LAST_RESTART=$CURRENT_TIME
+      else
+        echo "$TIME_NOW ⚠️ سرویس مرتبط با رتهول پیدا نشد، ریستارت انجام نشد" >> "$LOG_FILE"
+      fi
     else
       echo "$TIME_NOW ⏳ وقفه فعال بعد ریستارت قبلی." >> "$LOG_FILE"
     fi
