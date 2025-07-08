@@ -32,7 +32,7 @@ cat /var/log/rathole_watchdog.log
 ### 📡 نصب سریع `backhaul_watchdog.sh`
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/backhaul_watchdog.sh)
+bash <(curl -s https://raw.githubusercontent.com/naseh42/tunnel_watchdog/main/bachaul_watchdog.sh)
 ```
 
 ✅ پس از اجرای منو:
