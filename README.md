@@ -82,6 +82,7 @@ systemctl disable backhaul_watchdog.service
 ---
 
 ## 👨‍💻 توسعه‌دهنده
+کانال تلگرام : https://t.me/rwatchdog
 
 ساخته‌شده با ❤️ توسط [@nxnx65](https://github.com/naseh42)  
 برای گزارش باگ، پیشنهاد ارتقا، یا ارسال Pull Request خوشحال می‌شیم که کنارمون باشی 🚀
