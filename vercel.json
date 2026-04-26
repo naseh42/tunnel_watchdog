@@ -1,5 +1,15 @@
 {
   "version": 2,
-  "builds": [{ "src": "api/*.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "api/relay.js" }]
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/relay.js"
+    }
+  ]
 }
